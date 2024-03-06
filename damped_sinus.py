@@ -35,7 +35,7 @@ with st.expander("Open for comments"):
    st.markdown('''Damping signal $f$ is defined as:''')
    st.latex(''' f_d(t) = f(t) \exp(-t/tau)''') 
    st.markdown('''Its time constant $tau$ is such that:''')
-   st.latex('''f_d(t) $\approx$ 0 \ for \ t> 5 \ tau''')
+   st.latex(r''' f_d(t) \approx 0 \ for \ t> 5 \ tau''')
    st.markdown('''ant that:''')
    st.latex('''f_d'(t=0) = -1 / \ tau''')
    st.markdown('''This means that the tangent of the envelope of $f(t)$ at $t=0$ is as shown in orange on the plot''')
