@@ -33,7 +33,7 @@ st_audio(signal,fe)
 
 with st.expander("Open for comments"):
    st.markdown('''Damping signal $f$ is defined as:''')
-   st.latex(''' f_d(t) = f(t) \exp(-t/tau)''') 
+   st.latex(r''' f_d(t) = f(t) \ e^{-t/tau}''') 
    st.markdown('''Its time constant $tau$ is such that:''')
    st.latex(r''' f_d(t) \approx 0 \ for \ t> 5 \ tau''')
    st.markdown('''ant that:''')
